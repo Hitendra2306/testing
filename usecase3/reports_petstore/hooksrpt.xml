@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="25.758" tests="18" skipped="0" failures="0" errors="0">
+<testcase classname="Pet Endpoint" name="Create a new pet" time="3.203">
+<system-out><![CDATA[
+Given I have a valid pet payload............................................passed
+When I send a POST request to the /pet endpoint.............................passed
+Then the response status code should b be 200 and contains the created pet details.passed
+]]></system-out>
+</testcase>
+<testcase classname="Pet Endpoint" name="Update an existing pet" time="2.039">
+<system-out><![CDATA[
+Given I have an existing pet with ID "20" for updation......................passed
+And I have an updated pet payload...........................................passed
+When I send a PUT request to the /pet endpoint..............................passed
+Then the response status code should ould be 200 for the update and contains the updated pet details.passed
+]]></system-out>
+</testcase>
+<testcase classname="Pet Endpoint" name="Upload an image for a pet" time="1.533">
+<system-out><![CDATA[
+Given I have an existing pet with ID "20" for uploading image...............passed
+And I have a valid image file...............................................passed
+When I send a POST request to the /pet/{petId}/uploadImage endpoint.........passed
+Then the response status code should be 200 and the response should contain the uploaded image details.passed
+]]></system-out>
+</testcase>
+<testcase classname="Pet Endpoint" name="get a pet" time="1.158">
+<system-out><![CDATA[
+Given I have an existing pet with ID for get................................passed
+When I send a get request to the /pet/{petId} endpoint......................passed
+Then the response status code should be 200 for the pet request and the response should confirm the pet request is succesfull.passed
+]]></system-out>
+</testcase>
+<testcase classname="Pet Endpoint" name="get a pet by availability status" time="1.811">
+<system-out><![CDATA[
+Given I have an existing pet with ID for get................................passed
+When I send a request to the /pet/findbystatus endpoint.....................passed
+Then the response status code should be 200 for the pet request and the response should list all the information.passed
+]]></system-out>
+</testcase>
+<testcase classname="Pet Endpoint" name="Delete a pet" time="1.206">
+<system-out><![CDATA[
+Given I have an existing pet with ID "20" for deletion......................passed
+When I send a DELETE request to the /pet/{petId} endpoint...................passed
+Then the response status code should be 200 for the deleted pet.............passed
+]]></system-out>
+</testcase>
+<testcase classname="Store Endpoint" name="Place a new order" time="1.167">
+<system-out><![CDATA[
+Given I have a valid order payload..........................................passed
+When I send a POST request to the /store/order endpoint.....................passed
+Then the response status code for the store api should be 200 and the response should contain the placed order details.passed
+]]></system-out>
+</testcase>
+<testcase classname="Store Endpoint" name="Find an order by ID" time="1.185">
+<system-out><![CDATA[
+Given I have an existing order..............................................passed
+When I send a GET request to the /store/order/{orderId) endpoint with ID "10".passed
+Then the response status code for the store api should be 200 and the response should contain the order details.passed
+]]></system-out>
+</testcase>
+<testcase classname="Store Endpoint" name="Delete an order" time="1.385">
+<system-out><![CDATA[
+Given I have an existing order..............................................passed
+When I send a DELETE request to the /store/order/{orderId) endpoint with ID "10".passed
+Then the response status code for the store api should be 200 and should confirm the order has been deleted.passed
+]]></system-out>
+</testcase>
+<testcase classname="Store Endpoint" name="Get store inventory" time="1.118">
+<system-out><![CDATA[
+Given I have the base URI...................................................passed
+When I send a GET request to the /store/inventory endpoint..................passed
+Then the response status code for the store api should be 200 and the response should contain the store inventory details.passed
+]]></system-out>
+</testcase>
+<testcase classname="User Endpoint" name="Create list of users with the given input array" time="1.329">
+<system-out><![CDATA[
+Given I have a valid user payload for Create list of users..................passed
+When I send a POST request to the /user/createwithlist endpoint.............passed
+Then the response status code should be 200 for the list of users creation contains the created list of user details.passed
+]]></system-out>
+</testcase>
+<testcase classname="User Endpoint" name="Get a user by username" time="1.286">
+<system-out><![CDATA[
+Given I have an existing user...............................................passed
+When I send a GET request to the /user/{username} endpoint with username "jojoj".passed
+Then the response status code should be 200 and the response should contain the user by the username details.passed
+]]></system-out>
+</testcase>
+<testcase classname="User Endpoint" name="Update an existing user" time="1.15">
+<system-out><![CDATA[
+Given I have an existing user...............................................passed
+And I have an updated user payload for the updation.........................passed
+When I send a PUT request to the /user/{username} endpoint with username "jojoj".passed
+Then the response status code should be 200 and the response should contain the updated user details.passed
+]]></system-out>
+</testcase>
+<testcase classname="User Endpoint" name="Delete a user" time="1.185">
+<system-out><![CDATA[
+When I send a DELETE request to the /user/{username} endpoint with username "jojoj".passed
+Given I have an existing user...............................................passed
+Then the response status code should be 200 for the deletion and the response should confirm the user has been deleted.passed
+]]></system-out>
+</testcase>
+<testcase classname="User Endpoint" name="Login a user" time="1.144">
+<system-out><![CDATA[
+Given I have valid login credentials........................................passed
+When I send a GET request to the /user/login endpoint with (username: "jojoj", password: "123333").passed
+Then the response status code should be 200 for the login and the response should contain the users session information@.passed
+]]></system-out>
+</testcase>
+<testcase classname="User Endpoint" name="Logout a user" time="1.163">
+<system-out><![CDATA[
+Given I am a logged-in user.................................................passed
+When I send a GET request to the /user/logout endpoint......................passed
+Then the response status code should be 200 for the logout and the response should confirm the user has been logged out.passed
+]]></system-out>
+</testcase>
+<testcase classname="User Endpoint" name="Create a new user by username" time="1.129">
+<system-out><![CDATA[
+Given I have a valid user payload...........................................passed
+When I send a POST request to the /user endpoint............................passed
+Then the response status code should be 200 for the new user creation and the response should contain the created user details.passed
+]]></system-out>
+</testcase>
+<testcase classname="User Endpoint" name="Create list of users with the given list" time="1.159">
+<system-out><![CDATA[
+Given I have a valid user payload for Create list of users..................passed
+When I send a POST request to the /user/createwitharray endpoint............passed
+Then the response status code should be 200 for the list of users creation contains the created list of user details.passed
+]]></system-out>
+</testcase>
+</testsuite>

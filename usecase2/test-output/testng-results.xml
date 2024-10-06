@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-13T22:46:45 IST" name="Default suite" finished-at="2024-08-13T22:49:28 IST" duration-ms="162749">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.runnerclasss@30c15d8b]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-08-13T22:46:45 IST" name="Default test" finished-at="2024-08-13T22:49:28 IST" duration-ms="162749">
+      <class name="runner.runnerclasss">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.runnerclasss@30c15d8b]" started-at="2024-08-13T22:46:45 IST" name="setUpClass" finished-at="2024-08-13T22:46:46 IST" duration-ms="943" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3dbf3bc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.runnerclasss@30c15d8b]" started-at="2024-08-13T22:46:46 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-13T22:46:55 IST" duration-ms="9553" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Customer Login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["XYZ Bank Automation"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.runnerclasss@30c15d8b]" started-at="2024-08-13T22:46:55 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-13T22:47:05 IST" duration-ms="9817" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Deposit Money"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["XYZ Bank Automation"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.runnerclasss@30c15d8b]" started-at="2024-08-13T22:47:05 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-13T22:47:19 IST" duration-ms="13862" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Deposit Money"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["XYZ Bank Automation"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.runnerclasss@30c15d8b]" started-at="2024-08-13T22:47:19 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-13T22:47:35 IST" duration-ms="15657" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Deposit Money"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["XYZ Bank Automation"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.runnerclasss@30c15d8b]" started-at="2024-08-13T22:47:35 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-13T22:47:42 IST" duration-ms="7411" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Withdraw Money"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["XYZ Bank Automation"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.runnerclasss@30c15d8b]" started-at="2024-08-13T22:47:42 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-13T22:47:57 IST" duration-ms="15273" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Withdraw Money"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["XYZ Bank Automation"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.runnerclasss@30c15d8b]" started-at="2024-08-13T22:47:57 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-13T22:48:12 IST" duration-ms="14828" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Withdraw Money"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["XYZ Bank Automation"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.runnerclasss@30c15d8b]" started-at="2024-08-13T22:48:12 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-13T22:48:21 IST" duration-ms="8511" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["View Transactions"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["XYZ Bank Automation"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.runnerclasss@30c15d8b]" started-at="2024-08-13T22:48:21 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-13T22:48:27 IST" duration-ms="6563" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Logout"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["XYZ Bank Automation"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.runnerclasss@30c15d8b]" started-at="2024-08-13T22:48:27 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-13T22:48:36 IST" duration-ms="8725" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Go to Home Page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["XYZ Bank Automation"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.runnerclasss@30c15d8b]" started-at="2024-08-13T22:48:36 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-13T22:48:46 IST" duration-ms="10009" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add Customer"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["XYZ Bank Automation"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.runnerclasss@30c15d8b]" started-at="2024-08-13T22:48:46 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-13T22:48:57 IST" duration-ms="11313" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Open Account"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["XYZ Bank Automation"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.runnerclasss@30c15d8b]" started-at="2024-08-13T22:48:57 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-13T22:49:04 IST" duration-ms="6670" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["View Customers"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["XYZ Bank Automation"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.runnerclasss@30c15d8b]" started-at="2024-08-13T22:49:04 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-13T22:49:27 IST" duration-ms="22781" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Delete Customer"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["XYZ Bank Automation"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.runnerclasss@30c15d8b]" started-at="2024-08-13T22:49:27 IST" name="tearDownClass" finished-at="2024-08-13T22:49:28 IST" duration-ms="730" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.runnerclasss -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
